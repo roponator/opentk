@@ -37,13 +37,13 @@ namespace OpenTK
     */
     public abstract class GameViewBase : SurfaceView, IGameWindow
 	{
-		[Register (".ctor", "(Landroid/content/Context;)V", "")]
-		public GameViewBase (Context context) : base (context)
+        // [Register (".ctor", "(Landroid/content/Context;)V", "")] todo ropo commented
+        public GameViewBase (Context context) : base (context)
 		{
 		}
 
-		[Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")]
-		public GameViewBase (Context context, global::Android.Util.IAttributeSet attrs) : base (context, attrs)
+        // [Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")] todo ropo commented
+        public GameViewBase (Context context, global::Android.Util.IAttributeSet attrs) : base (context, attrs)
 		{
 		}
 

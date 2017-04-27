@@ -64,14 +64,14 @@ namespace OpenTK.Platform.Android
 		System.Diagnostics.Stopwatch stopWatch;
 		double tick = 0;
 
-		[Register (".ctor", "(Landroid/content/Context;)V", "")]
-		public AndroidGameView (Context context) : base (context)
+        // [Register (".ctor", "(Landroid/content/Context;)V", "")] todo ropo commented
+        public AndroidGameView (Context context) : base (context)
 		{
 			Init ();
 		}
 
-		[Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")]
-		public AndroidGameView (Context context, global::Android.Util.IAttributeSet attrs) : base (context, attrs)
+        //[Register (".ctor", "(Landroid/content/Context;Landroid/util/AttributeSet;)V", "")] todo ropo commented
+        public AndroidGameView (Context context, global::Android.Util.IAttributeSet attrs) : base (context, attrs)
 		{
 			Init ();
 		}
